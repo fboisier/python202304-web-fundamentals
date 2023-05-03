@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block</title>
+
+    <style>
+        h1,
+        h2 {
+            display: inline-block;
+            background-color: cyan;
+            width: 200px;
+            /* this won't work!!! */
+        }
+
+        label,
+        input {
+            display: block;
+        }
+
+        p {
+            display: inline-block;
+            vertical-align: top;
+            width: 160px;
+            box-sizing: border-box;
+            padding: 20px;
+            background-color: lightcyan;
+            margin: 10px;
+        }
+
+        li{
+            display: inline;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            margin: 10px;
+        }
+        li a{
+            text-decoration: none;
+        }
+        ul{
+            margin: 50px;
+        }
+
+        #prueba{
+            color: red;
+        }
+        .negro{
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id="prueba"> ESTO ES<span class="negro">UNA</span> PRUEBA</h1>
+
+    <ul>
+        <li><a href="#" >Home</a></li>
+        <li><a href="#" >Mision</a></li>
+        <li><a href="#" >Vision</a></li>
+        <li><a href="#" >Contacto</a></li>
+        <li><a href="#" >Soporte</a></li>
+    </ul>
+
+
+    <!-- algunos elementos bloque -->
+    <h1>Hola, mundo</h1>
+    <h2>Adiós, mundo</h2>
+    <!-- algunos elementos en línea -->
+    <label>Nombre:</label>
+    <input type="text" name="first_name">
+    <label>Apellido:</label>
+    <input type="text" name="last_name">
+
+
+    <p style="color: red;">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.orem ipsum dolor sit amet.orem ipsum dolor sit amet.orem ipsum dolor sit amet.orem ipsum dolor sit amet.orem ipsum dolor sit amet.</p>
+
+
+
+
+</body>
+
+</html>

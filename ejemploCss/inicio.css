@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "pancho";
+    src: url("font/SuperMario256.ttf");
+}
+
+* {
+    font-family: pancho, Geneva, Tahoma, sans-serif;  
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#titulo {
+    color:blue;
+}
+
+.subtitulo {
+    color:aquamarine;
+}
+
+.subtitulo {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.grande{
+    font-size: 80px;
+}
+
+.rojo{
+    color: red;
+}
+
+[href]{
+    color:#91C76C;
+}
+
+a {
+    font-size: 40px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: pancho, Geneva, Tahoma, sans-serif;
+}
+
+.boton {
+    background-color: teal;
+    color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 51px;
+    text-align: center;
+    font-family: monospace;
+}

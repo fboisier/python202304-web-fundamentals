@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+    
+    <h1>Ejemplo de Eventos JS en las Etiquetas</h1>
+    <h3>Esto es una prueba</h3>
+    <h3>Esto es una prueba</h3>
+    <h3>Esto es una prueba</h3>
+
+    <hr>
+    <!-- BOTONES DE ACCIONES -->
+    <header>
+        <a href="#" class="boton" onclick="cambiarTexto(this)">Cambiar Texto</a>
+        <a href="#" class="boton" onclick="cambiarTODO()">CAMBIAR TODAS LAS IMAGENES</a>
+        <a href="#" class="boton" onclick="cambiarVERDE()">PONER TODO VERDE</a>
+        <a href="#" class="boton" onclick="restablecerColor()">RESTABLECER COLOR</a>
+    </header>
+
+    <!-- CARGA DE LAS IMAGENES -->
+    <img 
+        src="img/chatGPT1.png" 
+        alt="logo de CHATGPT" 
+        onmouseover="cambioImg(this)" 
+        onmouseleave="cambioImg2(this)"
+    >
+
+    <img 
+        src="img/chatGPT1.png" 
+        alt="logo de CHATGPT" 
+        onmouseover="alternarImg(this, 'ENTRA')" 
+        onclick="alternarImg(this, '')"
+    >
+
+    <img 
+        src="img/chatGPT1.png" 
+        alt="logo de CHATGPT" 
+        onmouseover="alternarImgOpcion2(this, 'img/chatGPT2.png')" 
+        onclick="alternarImgOpcion2(this, 'img/chatGPT1.png')"
+    >
+
+    <div>
+        <select onchange="cambiarTemperatura(this)">
+            <option value="C">Celsus</option>
+            <option value="F">Farenhaint</option>
+        </select>
+    </div>
+
+    <div>
+        <p><span class="numero">45</span>*</p>
+        <p><span class="numero">33</span>*</p>
+        <p><span class="numero">45</span>*</p>
+        <p><span class="numero">66</span>*</p>
+        <p><span class="numero">77</span>*</p>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/inicio.js"></script>
+    <script src="js/funcion_dos.js"></script>
+</body>
+</html>

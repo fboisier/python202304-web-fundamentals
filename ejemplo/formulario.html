@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    
+    <form>
+        <div id="primero">
+            <label for="nombre">Nombre <span>Apellido</span></label>
+            <input type="text" name="first_name" value="Pancho" id="nombre">
+        </div>
+        <div>
+            <label id="etiqueta1" for="">Edad</label>
+            <input type="number" name="edad" value="30">
+        </div>
+        <div>
+            <label for="">Contraseña</label>
+            <input type="password" name="contraseña">
+        </div>
+        <div>
+            <label for="">Nacimiento</label>
+            <input type="date" name="nacimiento">
+        </div>   
+        <div>
+            <label for="">Hora</label>
+            <input type="time" name="hora">
+        </div>   
+        <div>
+            <label for="">Hora Local</label>            
+            <input type="datetime-local" name="horalocal">
+        </div>   
+        <div>
+            <label for="">Color</label>
+            <input type="color" name="color">
+        </div>   
+
+
+        <input type="radio" name="font" value="bold" id="bold">
+        <label for="bold"><strong>Negrita</strong></label>
+
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Normal</label>
+        <input type="radio" name="font" value="cursiva" id="cursiva">
+        <label for="cursiva">Cursiva</label>
+
+        <input type="radio" name="genero" value="masculino" id="normal1">
+        <label for="normal">masculino</label>
+
+        <input type="radio" name="genero" value="femenino" id="normal2">
+        <label for="normal">femenino</label>
+
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Estoy de acuerdo</label>
+        
+        
+        <div>
+            <input type="submit" value="ENVIAR" >
+        </div>
+
+        <select name="snack">
+            <option>Almonds</option>
+            <option>Cheese and Crackers</option>
+            <option>Pita and Hummus</option>
+            <option>Pears</option>
+        </select>
+        <textarea name="comment" cols="20" rows="3">ECEEC</textarea>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+div {
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.foto {
+    background: #ffffff url("img/one-piece.jpe");
+}
+
+.foto>h1{
+    color: white;
+    background-color: blue;
+    padding: 30px;
+    margin: 30px;
+}
+
+#titulo{
+    color: white;
+    background-color: tomato;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    border: black 20px double;
+}
+
+#chat {
+    font-size: 48px; /* cambia 48px al tamaño que desees */
+    background-color: blue;
+    color: red;
+    text-align: center;
+}
+
+#chat {
+    font-size: 48px;
+    background-color: blue;
+    color: red;
+    text-align: center;
+    transition: all 0.2s ease-in-out; /* añadimos transición */
+}
+#chat:hover {
+    transform: translate(0, 50px); /* añadimos traslación */
+    background-color: green; /* cambio de color */
+}

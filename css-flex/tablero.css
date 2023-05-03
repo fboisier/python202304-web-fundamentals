@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'leds';
+    src: url('fonts/led_board-7.ttf');
+}
+
+main {
+    width: 700px;
+    margin: 100px auto;
+    min-height: 300px;
+    background-color: rgb(59, 58, 58);
+    border: 20px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+h6 {
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0px !important;
+}
+
+section {
+    flex: 3;
+}
+
+section.medio {
+    flex: 5;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p,
+h1 {
+    font-family: 'leds';
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    line-height: 1.5;
+    background-color: rgb(99, 13, 13);
+    text-align: center;
+    margin: 0px 10px;
+}
