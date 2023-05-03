@@ -13,3 +13,5 @@ function cambioImg2(elemento){
     elemento.src = 'img/chatGPT1.png'
 }
 
+// esto es algo nuevo
+
